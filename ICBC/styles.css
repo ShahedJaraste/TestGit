@@ -1,0 +1,167 @@
+button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero_section {
+    height: max-content;
+    margin: 0;
+    background-color: rgb(32, 49, 98);
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.ticket {
+    background-color: rgb(255, 157, 66);
+    color: rgb(32, 49, 98);
+    font-weight: 700;
+    border: none;
+    border-radius: 2em;
+    width: 10em;
+    height: 3em;
+    font-size: 1.2em;
+}
+
+.register {
+    background-color: rgb(25, 162, 141);
+    color: rgb(32, 49, 98);
+    font-weight: 700;
+    border: none;
+    border-radius: 2em;
+    width: 12em;
+    height: 3em;
+    font-size: 1.2em;
+}
+
+.abstract {
+    background-color: rgb(255, 198, 16);
+    color: rgb(32, 49, 98);
+    font-weight: 700;
+    border: none;
+    border-radius: 2em;
+    width: 12em;
+    height: 3em;
+    font-size: 1.2em;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    gap: 1em;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 162, 141);
+    border-radius: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: .5em;
+
+    p {
+        font-weight: 700;
+        color: rgb(32, 49, 98);
+        font-size: 1.2em;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: .5em;
+
+    p {
+        padding-left: 1em;
+        padding-right: 1em;
+        font-weight: 700;
+        color: rgb(255, 157, 66);
+        font-size: 1.2em;
+    }
+
+    .button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        padding-left: .5em;
+        text-decoration: none;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8em;
+    padding-bottom: 5em;
+
+    p {
+        margin: 0;
+    }
+}
+
+.uni_name,
+.ICBC {
+    color: rgb(171, 215, 255);
+    font-weight: 700;
+    text-align: center;
+}
+
+.uni_name {
+    font-size: 2em;
+}
+
+.ICBC {
+    font-size: 3em;
+}
+
+.about_section {
+    height: max-content;
+    margin: 0;
+    background-color: rgb(171, 215, 255);
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    .invite_letter {
+        font-weight: 600;
+        font-size: 1.3em;
+        text-align: justify;
+        line-height: 1.5;
+        word-spacing: .2;
+        padding-bottom: 2em;
+    }
+}
+
+.about_title {
+    display: flex;
+    justify-content: center;
+
+    p {
+        color: rgb(32, 49, 98);
+        font-weight: 800;
+        font-size: 2em;
+        text-align: center;
+    }
+}
